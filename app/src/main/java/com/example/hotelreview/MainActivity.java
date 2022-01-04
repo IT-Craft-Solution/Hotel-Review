@@ -18,7 +18,7 @@ import android.widget.TextView;
 public class MainActivity extends AppCompatActivity {
 
     CardView cardView,cardView2,cardView3;
-    ImageView imageView;
+    ImageView imageView,profile;
     TextView textView,textView2,textView3,textView4,textView5;
     SearchView searchView;
     Animation anim_from_button,anim_from_top,anim_from_left;
@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
         textView4 = findViewById(R.id.textView3);
         textView5 = findViewById(R.id.textView4);
         searchView = findViewById(R.id.searchView);
+        profile = findViewById(R.id.profile);
 
         //load animations
         anim_from_button = AnimationUtils.loadAnimation(this,R.anim.anim_from_bottom);
@@ -56,6 +57,14 @@ public class MainActivity extends AppCompatActivity {
         textView4.setAnimation(anim_from_top);
         textView5.setAnimation(anim_from_top);
         searchView.setAnimation(anim_from_left);
+
+        profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent secondActivity = new Intent(MainActivity.this,ProfileActivity.class);
+                startActivity(secondActivity);
+            }
+        });
 
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
