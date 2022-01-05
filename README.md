@@ -2,8 +2,6 @@
 
 ## ScreenShots
 
-## Screenshots
-
 ## Simple Booking Your Bus And Enjoy Your Journey
 
 <img src="https://github.com/IT-Craft-Solution/Hotel-Review/blob/New/ScreenShots/image.png">
