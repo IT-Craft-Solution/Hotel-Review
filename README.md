@@ -1,8 +1,8 @@
 # Hotel-Review
 
-## ScreenShots
+## Check Hotels Details and Book Hotels And Check Specific Hotels Reviews for All over
 
-## Simple Booking Your Bus And Enjoy Your Journey
+## ScreenShots
 
 <img src="https://github.com/IT-Craft-Solution/Hotel-Review/blob/New/ScreenShots/image.png">
 
